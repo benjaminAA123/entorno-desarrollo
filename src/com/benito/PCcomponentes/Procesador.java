@@ -8,6 +8,7 @@ public class Procesador {
     private Integer id;
     public String marca;
     private String fabricante;
+    public String potencia;
 
     public Integer getId() {
         return id;
@@ -32,4 +33,7 @@ public class Procesador {
         public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
         }
+
+        public String getPotencia() { return potencia; }
+        public void setPotencia(String potencia) { this.potencia = potencia; }
 }

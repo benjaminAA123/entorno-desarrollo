@@ -1,11 +1,10 @@
 package com.benito.PCcomponentes;
 
-public class Ventilador_CPU {
-
+public class Altavoces {
     private Integer id;
     public String marca;
     private String fabricante;
-
+    public String volumen;
 
     public Integer getId() {
         return id;
@@ -31,7 +30,9 @@ public class Ventilador_CPU {
         this.fabricante = fabricante;
     }
 
+    public String getVolumen() {return volumen; }
 
-
+    public void setVolumen(String volumen) { this.volumen = volumen; }
 }
+
 

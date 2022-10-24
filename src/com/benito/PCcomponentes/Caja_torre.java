@@ -1,11 +1,11 @@
 package com.benito.PCcomponentes;
 
-public class Ventilador_CPU {
-
+public class Caja_torre {
     private Integer id;
     public String marca;
     private String fabricante;
 
+    public String size;
 
     public Integer getId() {
         return id;
@@ -31,7 +31,8 @@ public class Ventilador_CPU {
         this.fabricante = fabricante;
     }
 
+    public String getSize() {return size; }
 
-
+    public void setSize(String size) { this.size = size; }
 }
 

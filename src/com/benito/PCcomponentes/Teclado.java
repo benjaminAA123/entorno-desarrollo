@@ -1,11 +1,12 @@
 package com.benito.PCcomponentes;
 
-public class Ventilador_CPU {
-
+public class Teclado {
     private Integer id;
     public String marca;
     private String fabricante;
 
+
+    public String potencia;
 
     public Integer getId() {
         return id;
@@ -32,6 +33,4 @@ public class Ventilador_CPU {
     }
 
 
-
 }
-

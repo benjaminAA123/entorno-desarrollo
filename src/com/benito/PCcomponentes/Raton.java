@@ -1,7 +1,6 @@
 package com.benito.PCcomponentes;
 
-public class Ventilador_CPU {
-
+public class Raton {
     private Integer id;
     public String marca;
     private String fabricante;
@@ -32,6 +31,4 @@ public class Ventilador_CPU {
     }
 
 
-
 }
-
